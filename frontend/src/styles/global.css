@@ -1,0 +1,74 @@
+/* src/styles/global.css */
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar, .footer {
+  background-color: #1a1a1a;
+  padding: 1rem 0;
+}
+
+.navbar a, .footer a {
+  margin: 0 1rem;
+}
+
+.navbar a:hover, .footer a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer p {
+  margin: 1rem 0 0;
+}
+
+.footer .social-links a {
+  margin: 0 0.5rem;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer p {
+  margin: 1rem 0 0;
+}
+
+.footer .social-links a {
+  margin: 0 0.5rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-icons a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.footer-icons a:hover {
+  color: #007bff;
+}
